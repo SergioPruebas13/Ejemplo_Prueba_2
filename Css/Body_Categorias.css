@@ -1,0 +1,209 @@
+.Body_Container{
+    background: red;
+    width: 78%;
+    margin: auto;
+
+    /*Flex*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Titulo{
+    width: 100%;
+    background: blueviolet;
+}
+
+.Container_Izquierdo{
+    background: yellow;
+    width: 65%;
+    
+
+    /*flex*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Container_Izquierdo .Titulo{
+    width: 100%;
+    background: brown;
+}
+
+.Izquierdo_Superior{
+    background: orange;
+    width: 100%;
+
+    /*Flex*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Izquierdo_Superior .Logo{
+    background: white;
+    width: 25%;
+    height: 150px;
+
+     /*Flex*/   
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.Logo img{
+    width: 95%;
+    height: 85%;
+}
+
+.Izquierdo_Superior .Descripcion_Categorias{
+    background: white;
+    width: 75%;
+    height: 150px;
+
+    /*Flex*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Izquierdo_Superior .Descripcion_Categorias div {
+    margin-left: 13%;
+}
+
+.Izquierdo_Inferiror{
+    background: rgb(65, 65, 53);
+    width: 100%;
+    padding: 3% 3%;
+}
+
+.Productos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    background: rgb(241, 240, 239,1);
+    width: 31%;
+    height: 280px;
+    border-radius: 5px;
+    margin-bottom: 3%;
+
+    /*Flex*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .Ver_Mas{
+    background: yellowgreen;
+    width: 50%;
+    height: 10%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    
+    /*Flex*/
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.card a{
+    width: 90%;
+    height: 75%;
+}
+
+.card img{
+    width: 95%;
+    height: 95%;
+    border-radius: 3px;
+}
+
+.card img:hover{
+    width: 100%;
+    height: 100%;
+}
+
+.Container_Derecho{
+    background: rgb(233, 233, 252);
+    width: 35%;
+    padding: 1.5% 0.010%;
+
+    /*Flex*/
+       
+}
+
+.Redes_Container{
+    background: #c0c0c0;
+    margin: auto;
+    width: 92%;
+    height: 100%;
+  
+    
+}
+
+iframe{
+    width: 500px;
+    height: 100%;
+}
+
+/*Modal container*/
+
+
+.ed-modal-container{
+    background: rgba(0,0,0,.70);
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+
+    /*Flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ed-modal-content{
+    background: #c0c0c0;;
+    width: 35%;
+    height: 55%;
+    border-radius: 10px;
+  
+    /*Flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+.card_{
+      background: rgb(241, 240, 239,1);
+      width: 50%;
+      height: 85%;
+      border-radius: 10px;
+      margin: 3% 3%;
+  
+      /*Flex*/
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+.card_ a {
+     
+      margin: 3% 3%;  
+
+      /*Flex*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.card_ a img {
+    width: 100%;
+    max-height: 220px;
+    
+}
