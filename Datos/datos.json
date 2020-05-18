@@ -1,0 +1,39 @@
+{
+    "ProductosCatalogo":[
+        {
+            "id": 1,
+            "nombre": "140/60-17 MRF",
+            "precio": 250000,
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor laborum sequi.",
+            "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
+        },
+        {
+            "id": 2,
+            "nombre": "140/60-17 MRF",
+            "precio": 250000,
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor laborum sequi.",
+            "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
+        },
+        {
+            "id": 3,
+            "nombre": "140/60-17 MRF",
+            "precio": 250000,
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor laborum sequi.",
+            "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
+        },
+        {
+            "id": 4,
+            "nombre": "140/60-17 MRF",
+            "precio": 250000,
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor laborum sequi.",
+            "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
+        },
+        {
+            "id": 5,
+            "nombre": "140/60-17 MRF",
+            "precio": 250000,
+            "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor laborum sequi.",
+            "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
+        }
+    ]
+}

@@ -47,7 +47,7 @@ header{
 .menu_principal nav{
     background: #2F353A;
     border-radius: 5px;
-    z-index: 1000;
+    z-index: 500;
     margin: 20px;
     min-width: 510px;
 }

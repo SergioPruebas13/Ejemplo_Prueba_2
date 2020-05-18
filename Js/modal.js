@@ -41,18 +41,40 @@ const printModal = content =>{
 	 })
 }
 
+
 $(document).ready(function(){
-	$('body').on('click', '#Contenedor_Izq .Productos .card', function(){
+
+	var Descrpcion = `<div class="Descricion">
+						<div class="solo_Descripcion">
+							<h3>Descripcion.</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Quaerat dolor laborum sequi.
+							</p>
+						</div>
+						<div class="buton_Add">
+							<button id="agregar_carro">Agregar Carro</button>
+						</div>
+					  </div>`;
+
+
+
+	$('body').on('click', '#Contenedor_Izq .card', function(){
 		var htm = $(this).html();
-		var htm2 = htm.split(`<a class="Ver_Mas" href="#">Ver mas</a>`).join("");
+		console.log(htm)
+		var htm2 = htm.split(`<button class="Ver_Mas"> Ver mas</button>`).join("");
+		var htm3 = htm2.split(`<button class="Ver_Mas"> Add Cart</button>`).join("");
 		//alert(htm2);
 		var hh = `<div class="card_">
-				  ${htm2}
-				  
-		         </div>`;
+				  ${htm3}
+				 </div>
+				 ${Descrpcion}`;
 	 	printModal(hh);
 	})
   })
+
+
+
+
 
 
 
