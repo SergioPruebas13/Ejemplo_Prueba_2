@@ -58,7 +58,11 @@ $(document).ready(function(){
 
 
 
-	$('body').on('click', '#Contenedor_Izq .card', function(){
+	$('body').on('click', '.', function(){
+		
+			alert($(this).attr('id'));
+		
+		
 		var htm = $(this).html();
 		console.log(htm)
 		var htm2 = htm.split(`<button class="Ver_Mas"> Ver mas</button>`).join("");

@@ -39,8 +39,8 @@ function Cargar_Productos(){
                 <img src="${Producto[i].imgR}" alt="">
                 <h3 id="h3_">${Producto[i].nombreR}</h3>
                 <p>$ ${Producto[i].precioR}</p>
-                <span><button class="Ver_Mas"> Ver mas</button>&nbsp&nbsp
-                <button class="Ver_Mas"> Add Cart</button></span>
+                <span><button class="Ver_Mas" id="${Producto[i].idR}"> Ver mas</button>&nbsp&nbsp
+                <button class="Ver_Mas" id=""> Add Cart</button></span>
             </div>
             `;
         
