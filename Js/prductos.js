@@ -121,7 +121,7 @@ function main () {
 //----------------------Cargar Productos [1]
 function cargarDatos(){
     $.ajax({
-        url: "http://127.0.0.1:5500/Datos/datos.json"
+        url: "https://sergiopruebas13.github.io/Ejemplo_Prueba_2/Datos/datos.json"
     }).done(function(respuesta){
             
             for (let i = 0; i < respuesta.ProductosCatalogo.length; i++) {
