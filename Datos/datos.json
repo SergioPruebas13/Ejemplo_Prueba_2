@@ -4,6 +4,7 @@
             "id": 1,
             "nombre": "140/60-17 MRF",
             "precio": 250000,
+            "stock": 4,
             "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor laborum sequi.",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -11,6 +12,7 @@
             "id": 2,
             "nombre": "140/60-17 MRF",
             "precio": 250000,
+            "stock": 4,
             "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor laborum sequi.",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -18,6 +20,7 @@
             "id": 3,
             "nombre": "140/60-17 MRF",
             "precio": 250000,
+            "stock": 4,
             "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor laborum sequi.",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -25,6 +28,7 @@
             "id": 4,
             "nombre": "140/60-17 MRF",
             "precio": 250000,
+            "stock": 4,
             "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor laborum sequi.",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -32,6 +36,7 @@
             "id": 5,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -39,6 +44,7 @@
             "id": 6,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -46,6 +52,7 @@
             "id": 7,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -53,6 +60,7 @@
             "id": 8,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         }
@@ -60,6 +68,7 @@
             "id": 9,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -67,13 +76,15 @@
             "id": 10,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
         {
             "id": 11,
-            "nombre": "150/48-19 MRF",
+            "nombre": "150/48-18 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -81,6 +92,7 @@
             "id": 12,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -88,6 +100,7 @@
             "id": 13,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -95,6 +108,7 @@
             "id": 14,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -102,6 +116,7 @@
             "id": 15,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -109,6 +124,7 @@
             "id": 16,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -116,6 +132,7 @@
             "id": 17,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -123,6 +140,7 @@
             "id": 18,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -130,6 +148,7 @@
             "id": 19,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
+            "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -137,6 +156,7 @@
             "id": 20,
             "nombre": "150/48-20 MRF",
             "precio": 350000,
+            "stock": 6,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         }

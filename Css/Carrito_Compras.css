@@ -1,0 +1,170 @@
+.nombre{
+    text-align: center;
+}
+
+.Container_Cart_Button{
+    width: 25%;
+    position: fixed;
+    margin-right: 15px;
+    z-index: 1000;
+    bottom: 0;
+    right: 0;
+}
+
+.container{
+    background: #ccc;
+    width: 100%;
+    border-radius: 10px;  
+    margin: auto;
+    display: none; 
+}
+
+.nombre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+.Scroll_Container{
+    width: 100%;
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.Scroll_Container::-webkit-scrollbar{
+    width: 5px;   
+}
+
+.Scroll_Container::-webkit-scrollbar-thumb{
+    background: yellowgreen;
+    border-radius: 5px;
+}
+
+.Detele{
+    background: #EE5757;
+    border: none;
+    padding: 15%;
+    border-radius: 20%;
+    color: #fff;
+}
+
+
+.Detele:hover{
+    padding: 20%;
+    font-size: 15px;
+}
+
+.producto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img{
+    background: red;
+    width: 30%;
+    height: 80px;
+    
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    width: 90%;
+    height: 90%;
+    
+}
+
+.descrip{
+    background: yellow;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descrip .desc_2{
+    
+    margin-left: 5%;
+}
+
+.Canti{
+    background: #E1DEDE;
+    float: right;
+    margin-right: 5%;
+    width: 60%;
+    border: none;
+ }
+
+.close{
+    background: blue;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.butt{
+    text-align: center;
+}
+
+.carrito{
+    margin-left: 135px;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 20%;
+    height: 70px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 35px;
+}
+
+.Button_Cart{
+    border: 1px solid black;
+    background:#E1DEDE;
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    outline:none;
+}
+
+.Button_Cart img{
+    width: 50%;
+}
+
+.Button_Cart img:hover{
+    width: 60%;
+}
+
+.Button_Solicitar{
+    background:blueviolet;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.Active{
+    display: block;
+}
+
+.Button_Activate{
+    background: rgb(88, 233, 120);
+}
+
+.notify{
+    
+}
+
+.Activate_Notify{
+    background: red;
+    width: 25%;
+    border-radius: 50%;
+    text-align: center;
+}

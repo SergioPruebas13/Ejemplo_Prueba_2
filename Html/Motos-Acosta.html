@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/Header_Footer.css">
     <link rel="stylesheet" href="../Css/Body_Categorias.css">
+    <link rel="stylesheet" href="../Css/Carrito_Compras.css">
     <script src="https://kit.fontawesome.com/f4464428a7.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="../Js/main.js"></script>
@@ -50,17 +51,11 @@
 
     <!--  BODY  -->
 
+    <!-- Container  -->
     <section class="Body_Container">
-        
-        <!--<div class="Titulo" >
-            <h1>Body</h1>
-        </div>--->
-        
+        <!-- Container Izquierdo -->
         <div class="Container_Izquierdo">
-            <!--<div class="Titulo" >
-                <h3>Container_Izquierdo</h3>
-            </div>---->
-           
+            <!-- Logo y Descripcion -->
             <div class="Izquierdo_Superior">
                 <!--<h3>Izquierdo_Superior</h3>---->
                 <div class="Logo">
@@ -77,27 +72,55 @@
                 </div>
 
             </div>
-
+            <!-- Filtro de Productos -->
+            <div class="Izquierdo_filtro">
+                <div class="comboBox_filtro">
+                    <select id="filtro_1" class="filtro_1" style="width: 150px;"></select>
+                </div>
+                <div class="BotonFiltro">
+                    <button id="Filtro_Buscar">Buscar</button>
+                </div>
+            </div>
+            <!-- Productos -->
             <div class="Izquierdo_Inferiror" id="Contenedor_Izq">
-                <!--<h3>Izquierdo_Inferiror</h3>--->
-                    <div class="card">
-                            <img src="../Img/Productos/MRF.png" alt="">
-                            <h3 id="h3_">140/60-17 MRF</h3>
-                            <p>$ 250.000</p>
-                            <span><button class="Ver_Mas"> Ver mas</button>&nbsp&nbsp
-                                  <button class="Ver_Mas"> Add Cart</button></span>
-                    </div>                   
+               <!-- Seccion Para Productos-->
             </div>
         </div>
-
+        <!-- Redes -->
         <div class="Container_Derecho">
-            <!--<h3>Container_Derecho</h3>--->
+            
             <div class="Redes_Container">
                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2Fsuzukimotostunja%2Fposts%2F%3Fref%3Dpage_internal&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
             </div>
         </div>
 
     </section>
+    <!-- Carrito -->
+    <div class="Container_Cart_Button">
+        <div class="container ">
+            <div class="nombre">
+                Carrito de Compras
+            </div>
+            <div class="Scroll_Container" id="Scroll_Container">
+               <!-- NO HAY PRODUCTOS -->
+               
+            </div>
+            <div class="down">
+                <hr>
+                <div class="total">
+                    Total: $ <span id="total_cart"></span>
+                </div>
+                <hr>
+                <div class="butt">
+                    <button class="Button_Solicitar">Solicitar</button>
+                </div>
+            </div>
+        </div>
+        <div class="carrito">
+            <div class="notify " id="notify_"></div>
+            <button class="Button_Cart " id="Butt_Cart"><img src="../Img/Carrito/Carrito_.png" alt=""></button>
+        </div>
+    </div>
 
     <!-- FOOTER -->
     <footer>
@@ -118,6 +141,7 @@
         
     </footer>
    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="../Js/jQuery.paginate.js"></script>
     <!--<script src="../Js/modal.js"></script>
