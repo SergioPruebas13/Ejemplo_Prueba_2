@@ -122,6 +122,7 @@ function main () {
 function cargarDatos(){
     $.ajax({
         url: "http://127.0.0.1:5500/Datos/datos.json"
+        // https://sergiopruebas13.github.io/Ejemplo_Prueba_2/Datos/datos.json
     }).done(function(respuesta){
             
             for (let i = 0; i < respuesta.ProductosCatalogo.length; i++) {
@@ -567,6 +568,8 @@ function validaciones(){
 
 function sendEmail(datos_personales){// Envio de Datos por Email
     emailjs.init("user_mDl5w2iG2NaF7v5gKv3OR");
+    var correo_send_ = document.getElementById('datos_email').value;
+    var nombre_usuario = document.getElementById('datos_nombre').value;
     let View_Carrito_Compras = document.getElementById('Scroll_Container');
     var notify = document.getElementById('notify_');
     var product_cart = JSON.parse(localStorage.getItem('product_cart'));
@@ -593,29 +596,34 @@ function sendEmail(datos_personales){// Envio de Datos por Email
                         ${datos_personales} 
                         ${Scroll_Productos}  
                         <p> Domicilio: $ 4.000 <br>
-                            Total: ${new Intl.NumberFormat().format(total_factura)}
+                            Total: $ ${new Intl.NumberFormat().format(total_factura)}
                         </p>`;
+
+    
+    console.log(correo_send_);
+    console.log(nombre_usuario);
 
 
     var template_params = {
-        "reply_to": "",
-        "from_name": "Sergio Ivan Martinez Pulido",
-        "to_name": "Jorgue Envios",
+        "correo_send": correo_send_,
+        "from_name": nombre_usuario,
         "message_html": message_html_
         }
-
-    var service_id = "default_service";
-    var template_id = "template_aZ5pbQQ0";
-    // emailjs.send(service_id, template_id, template_params);
-    alert('Mensaje Enviado Correctamente')
-    localStorage.removeItem('product_cart');
-    // View_Carrito_Compras.innerHTML = "";
-    // Total();
-    // $('.notify').removeClass('Activate_Notify');
-    // $('.Button_Cart').removeClass('Button_Activate');
-    // notify.innerHTML = "";
-    location.reload();
-    
+        
+        var service_id = "default_service";
+        var template_id = "template_aZ5pbQQ0";
+        emailjs.send(service_id, template_id, template_params);
+        alert('Mensaje Enviado Correctamente')
+        localStorage.removeItem('product_cart');
+        location.reload();
+        // alert('Mensaje Enviado Correctamente')
+        // localStorage.removeItem('product_cart');
+        // // View_Carrito_Compras.innerHTML = "";
+        // // Total();
+        // // $('.notify').removeClass('Activate_Notify');
+        // // $('.Button_Cart').removeClass('Button_Activate');
+        // // notify.innerHTML = "";
+        // location.reload();    
 }
 
 function soloLetras(e) {//validacion Solo Letras 
