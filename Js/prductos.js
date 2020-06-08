@@ -121,7 +121,7 @@ function main () {
 //----------------------Cargar Productos [1]
 function cargarDatos(){
     $.ajax({
-        url: "https://sergiopruebas13.github.io/Ejemplo_Prueba_2/Datos/datos.json"
+        url: "http://127.0.0.1:5500/Datos/datos.json"
     }).done(function(respuesta){
             
             for (let i = 0; i < respuesta.ProductosCatalogo.length; i++) {
@@ -218,9 +218,6 @@ function mostarModal(){
                                         <h3>Descripcion.</h3>
                                         <p>${Producto[i].descripcionR}</p>
                                     </div>
-                                    <div class="buton_Add">
-                                        <button class="agregar_carro" id="${Producto[i].idR}">Agregar Carro</button>
-                                    </div>
                                 </div>`;
 
             var hh = `${card}
@@ -296,6 +293,7 @@ function CargarDatosLS(){
                         <button class="Detele" onclick="EliminarDatos(${product_cart[i].id})">X</button>
                     </div>
             </div>
+            <hr>
             `;
         }
     }  
@@ -461,8 +459,8 @@ function modalSolicitud(){
                                         </div>
                                         </div>
                                         <div class="Solicitar_">
-                                            <button class="what_solic">Solicitar Whatsapp</button>
-                                            <button class="email_solic">Solicitar Correo</button>
+                                            <button class="what_solic">Solicitar&nbsp;&nbsp;<i class="fab fa-whatsapp 7x"></i></button>
+                                            <button class="email_solic">Solicitar&nbsp;&nbsp;<i class="far fa-envelope"></i></button>
                                         </div>
                                     </div> `;
 

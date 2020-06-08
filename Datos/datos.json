@@ -1,4 +1,5 @@
 {
+    
     "ProductosCatalogo":[
         {
             "id": 1,
@@ -75,7 +76,7 @@
         {
             "id": 10,
             "nombre": "150/48-19 MRF",
-            "precio": 350000,
+            "precio": 1500000,
             "stock": 4,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
@@ -84,7 +85,7 @@
             "id": 11,
             "nombre": "150/48-18 MRF",
             "precio": 350000,
-            "stock": 4,
+            "stock": 12,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -140,7 +141,7 @@
             "id": 18,
             "nombre": "150/48-19 MRF",
             "precio": 350000,
-            "stock": 4,
+            "stock": 9,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
         },
@@ -159,6 +160,14 @@
             "stock": 6,
             "descripcion": "Llanta KENDA para motos de 150 de cilindraje, con la mayoria de las xxxxx",
             "img": "https://i.postimg.cc/c4mLxjCk/MRF-3.png"
+        },
+        {
+            "id": 21,
+            "nombre": "140/70-17 DUNLOP",
+            "precio": 210000,
+            "stock": 12,
+            "descripcion": "Llanta  para motos de 150 de cilindraje, con la mayoria de las xxxxx",
+            "img": "https://i.postimg.cc/pXgyjrZK/140-70-17.jpg"
         }
     ]
 }
